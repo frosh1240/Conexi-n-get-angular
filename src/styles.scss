@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/theming';
+tr.mat-footer-row,
+tr.mat-row:hover {
+    background-color: rgba(0, 0, 0, .075);
+    color: #212529;
+}
+
+@media screen and (max-width:710px) {
+    .tableForm {
+        td.mat-cell,
+        td.mat-footer-cell,
+        th.mat-header-cell {
+            width: 150px;
+        }
+    }
+}
